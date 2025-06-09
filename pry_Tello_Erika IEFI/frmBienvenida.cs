@@ -36,20 +36,7 @@ namespace pry_Tello_Erika_IEFI
             PerfilSeleccionado = "Empleado";
             this.DialogResult = DialogResult.OK;
             this.Close();
-        }
-
-        private void AbrirLogin(string perfil)
-        {
-            frmInicioSesion loginForm = new frmInicioSesion(perfil);
-            loginForm.ShowDialog();
-        }
-
-        private void guna2PictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-       
+        }  
 
         private void btnVerUsuarios_Click(object sender, EventArgs e)
         {

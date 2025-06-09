@@ -97,7 +97,7 @@ namespace pry_Tello_Erika_IEFI
                     IdUsuario = usuarioId,
                     FechaIngreso = DateTime.Now.Date,
                     HoraIngreso = DateTime.Now.TimeOfDay,
-                    HoraSalida = null // La salida aún no se ha registrado
+                    HoraSalida = null 
                 };
 
                 clsUsuarioDAO auditoriaDAO = new clsUsuarioDAO();
